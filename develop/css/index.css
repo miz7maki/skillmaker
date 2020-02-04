@@ -1,0 +1,58 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+footer {
+  margin: 20px 0;
+  font-size: 11px;
+  text-align: center;
+}
+
+header h1 {
+  padding-left: 20px;
+}
+
+#canvasWrapper {
+  height: 100%;
+  width: 100%;
+}
+
+#canvas {
+  width: 960px;
+  min-width: 960px;
+  height: 540px;
+  min-height: 540px;
+}
+
+input {
+  margin: 4px auto;
+}
+
+img {
+  clear: both;
+}
+
+#sampleImgWrapper,
+#imgWrapper {
+  margin: 0 auto;
+}
+
+#sampleImgWrapper,
+#sampleImgWrapper img {
+  width: 100%;
+  max-width: 960px;
+}
+
+#imgWrapper,
+#imgWrapper img {
+  width: 100%;
+  max-width: 960px;
+}
+
+.contents {
+  text-align: center;
+}
